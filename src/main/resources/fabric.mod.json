@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "mc-119372-fix",
+	"version": "${version}",
+	"name": "MC-119372 Fix",
+	"description": "Fixes MC-119372",
+	"authors": [
+		"Survivalblock"
+	],
+	"contact": {
+		"homepage": "https://github.com/ekulxam/MC-119372-fix",
+		"sources": "https://github.com/ekulxam/MC-119372-fix"
+	},
+	"license": "MIT",
+	"icon": "assets/mc-119372-fix/icon.png",
+	"environment": "client",
+	"entrypoints": {
+	},
+	"mixins": [
+		"mc-119372-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
